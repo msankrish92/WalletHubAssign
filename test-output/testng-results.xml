@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="6" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="54342" started-at="2020-05-03T02:36:42 IST" finished-at="2020-05-03T02:37:36 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="54342" started-at="2020-05-03T02:36:42 IST" finished-at="2020-05-03T02:37:36 IST">
+      <class name="org.walletHub.testcases.TC002_Assignment_2">
+        <test-method status="PASS" signature="setValues()[pri:0, instance:org.walletHub.testcases.TC002_Assignment_2@131276c2]" name="setValues" is-config="true" duration-ms="0" started-at="2020-05-03T02:36:42 IST" finished-at="2020-05-03T02:36:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method status="PASS" signature="report()[pri:0, instance:org.walletHub.testcases.TC002_Assignment_2@131276c2]" name="report" is-config="true" duration-ms="9" started-at="2020-05-03T02:36:42 IST" finished-at="2020-05-03T02:36:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:org.walletHub.testcases.TC002_Assignment_2@131276c2]" name="launchBrowser" is-config="true" duration-ms="6431" started-at="2020-05-03T02:36:43 IST" finished-at="2020-05-03T02:36:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="assignment_2(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.walletHub.testcases.TC002_Assignment_2@131276c2]" name="assignment_2" duration-ms="33715" started-at="2020-05-03T02:36:49 IST" data-provider="readExcel" finished-at="2020-05-03T02:37:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://wallethub.com/join/light]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[msankrish4@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Feb@1234]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Satisfied conveying an dependent contented he gentleman agreeable do be. Warrant private blushes removed an in equally totally if. Delivered dejection necessary objection do mr prevailed. Mr feeling d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assignment_2 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.walletHub.testcases.TC002_Assignment_2@131276c2]" name="closeBrowser" is-config="true" duration-ms="246" started-at="2020-05-03T02:37:23 IST" finished-at="2020-05-03T02:37:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- org.walletHub.testcases.TC002_Assignment_2 -->
+      <class name="org.walletHub.testcases.TC001_Assignment_1">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:org.walletHub.testcases.TC001_Assignment_1@694e1548]" name="startReport" is-config="true" duration-ms="633" started-at="2020-05-03T02:36:41 IST" finished-at="2020-05-03T02:36:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="loadValues()[pri:0, instance:org.walletHub.testcases.TC001_Assignment_1@694e1548]" name="loadValues" is-config="true" duration-ms="1" started-at="2020-05-03T02:36:42 IST" depends-on-methods="org.walletHub.utils.Reporter.startReport" finished-at="2020-05-03T02:36:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadValues -->
+        <test-method status="PASS" signature="setValues()[pri:0, instance:org.walletHub.testcases.TC001_Assignment_1@694e1548]" name="setValues" is-config="true" duration-ms="4" started-at="2020-05-03T02:36:42 IST" finished-at="2020-05-03T02:36:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method status="PASS" signature="report()[pri:0, instance:org.walletHub.testcases.TC001_Assignment_1@694e1548]" name="report" is-config="true" duration-ms="9" started-at="2020-05-03T02:36:42 IST" finished-at="2020-05-03T02:36:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:org.walletHub.testcases.TC001_Assignment_1@694e1548]" name="launchBrowser" is-config="true" duration-ms="7571" started-at="2020-05-03T02:36:42 IST" finished-at="2020-05-03T02:36:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="assignment_1(java.lang.String)[pri:0, instance:org.walletHub.testcases.TC001_Assignment_1@694e1548]" name="assignment_1" duration-ms="42338" started-at="2020-05-03T02:36:49 IST" finished-at="2020-05-03T02:37:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assignment_1 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.walletHub.testcases.TC001_Assignment_1@694e1548]" name="closeBrowser" is-config="true" duration-ms="4377" started-at="2020-05-03T02:37:32 IST" finished-at="2020-05-03T02:37:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="stopReport()[pri:0, instance:org.walletHub.testcases.TC001_Assignment_1@694e1548]" name="stopReport" is-config="true" duration-ms="914" started-at="2020-05-03T02:37:36 IST" depends-on-methods="org.walletHub.api.ProjectSpecificMethod.unloadObjects" finished-at="2020-05-03T02:37:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopReport -->
+        <test-method status="PASS" signature="unloadObjects()[pri:0, instance:org.walletHub.testcases.TC001_Assignment_1@694e1548]" name="unloadObjects" is-config="true" duration-ms="0" started-at="2020-05-03T02:37:36 IST" finished-at="2020-05-03T02:37:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unloadObjects -->
+      </class> <!-- org.walletHub.testcases.TC001_Assignment_1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

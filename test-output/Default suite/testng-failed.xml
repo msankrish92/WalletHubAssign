@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <parameter name="walletHubUrl" value="param-val-not-found"/>
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="org.walletHub.testcases.TC002_Assignment_2">
+        <methods>
+          <include name="stopReport"/>
+          <include name="report"/>
+          <include name="launchBrowser"/>
+          <include name="assignment_2" invocation-numbers="0"/>
+          <include name="startReport"/>
+          <include name="setValues"/>
+          <include name="loadValues"/>
+        </methods>
+      </class> <!-- org.walletHub.testcases.TC002_Assignment_2 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

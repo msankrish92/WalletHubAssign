@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)" parallel="methods">
+    <parameter name="FaceBookUrl" value="https://www.facebook.com/"/>
+    <parameter name="walletHubUrl" value="https://wallethub.com/join/light"/>
+    <classes>
+      <class name="org.walletHub.testcases.TC002_Assignment_2">
+        <methods>
+          <include name="stopReport"/>
+          <include name="report"/>
+          <include name="launchBrowser"/>
+          <include name="assignment_2"/>
+          <include name="closeBrowser"/>
+          <include name="startReport"/>
+          <include name="unloadObjects"/>
+          <include name="setValues"/>
+          <include name="loadValues"/>
+        </methods>
+      </class> <!-- org.walletHub.testcases.TC002_Assignment_2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
